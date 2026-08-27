@@ -33,6 +33,7 @@ def run(
             )
             print("Done")
         browser.close()
+        print("Completed")
 
 
 def main() -> None:
