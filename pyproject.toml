@@ -7,7 +7,7 @@ requires-python = ">=3.14"
 dependencies = []
 
 [project.scripts]
-bulk-screenshot-url = "bulk_screenshot_url:main"
+bulk-screenshot-url = "bulk_screenshot_url.main:main"
 
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]
