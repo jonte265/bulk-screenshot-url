@@ -28,7 +28,7 @@ def run(mobile: bool = False) -> None:
             page.goto(site)
             print("Taking screenshot:", site)
             page.screenshot(
-                path=f"screenshots/{site.removeprefix('https://').replace('/', '').replace('.', '').replace('www', '')}.png"
+                path=f"screenshots/{site.removeprefix('https://').replace('/', '').replace('.', '').replace('www', '')}_{chosen}.png"
             )
             print("Done")
         browser.close()
